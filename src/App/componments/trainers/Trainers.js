@@ -6,7 +6,7 @@ class Trainers extends Component {
     return (
       <div className="trainers">
         <h1>讲师列表</h1>
-        <input className="trainers-input" type="text" value="1.成吉思汗" />
+        <input className="trainers-input" type="text" value="1.彭梦秋" />
         <input className="trainers-input" placeholder="+添加讲师" />
       </div>
     );

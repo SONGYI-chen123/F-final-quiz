@@ -1,0 +1,11 @@
+.trainees {
+  margin: 20px;
+  padding: 20px;
+}
+
+.trainees-input {
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  margin-right: 10px;
+}
