@@ -28,11 +28,7 @@ class Trainees extends Component {
     return (
       <div className="trainees">
         <h1>成员列表</h1>
-        <div>
-          {this.state.trainees.map((trainee) => {
-            return <Trainee key={traineeApi.id} id={traineeApi.id} traineeName={trainee.name} />;
-          })}
-        </div>
+        <Trainee trainees={this.state.trainees} />
         <input className="trainees-input" placeholder="+添加成员" />
       </div>
     );
